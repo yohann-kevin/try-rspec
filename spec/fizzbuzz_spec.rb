@@ -12,7 +12,7 @@ RSpec.describe do
         :limit => 15,
         :config => [
             ConfigTest.new(3, "fizz"),
-            ConfigTest.new(5, "buzz"),
+            ConfigTest.new(5, "buzz")
         ],
         :expect => ["fizz", "buzz", "fizz", "fizz", "buzz", "fizz", "fizzbuzz"]
     }
@@ -21,7 +21,7 @@ RSpec.describe do
         :limit => 10,
         :config => [
             ConfigTest.new(3, "fizz"),
-            ConfigTest.new(5, "buzz"),
+            ConfigTest.new(5, "buzz")
         ],
         :expect => ["fizz", "buzz", "fizz", "fizz", "buzz"]
     }
